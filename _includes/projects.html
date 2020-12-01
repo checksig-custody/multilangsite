@@ -1,0 +1,13 @@
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h2 class="section-heading">Projects</h2>
+            </div>
+        </div>
+        <div class="row padding">
+			<ul>
+			{% for project in site.projects %}
+			  <li><img src="{{ project.img }}"><a href="{{ site.baseurl }}/{{ project.url }}">{{ project.title }}</a></li>
+			{% endfor %}
+			
+			</ul>
+        </div>
