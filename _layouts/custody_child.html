@@ -12,13 +12,26 @@
 			<div class="row">
 				<div class="it-hero-wrapper it-dark it-overlay">
 					<!-- - img-->
+					<div class="img-responsive-wrapper" style="">
+						<div class="img-responsive">
+							<div class="it-hero-text-wrapper bg-dark"
+								style="padding:120px 0px; max-width:800px; margin:0px auto;">
+								<h1 class="no_toc">{{ page.header }}</h1>
+								<p class="d-none d-lg-block">{{ page.subdesc }}</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			{% include nav-custody.html %}
+			<div class="row">
+				<div class="it-hero-wrapper it-dark it-overlay">
+					<!-- - img-->
 					<div class="img-responsive-wrapper"
 						style="background-image:url(https://via.placeholder.com/1600x400);background-size: auto 100%; height: 400px; background-position: center;">
 						<div class="img-responsive">
 							<div class="it-hero-text-wrapper bg-dark"
 								style="padding:120px 0px; max-width:800px; margin:0px auto;">
-								<h1 class="no_toc">{{ page.title }}</h1>
-								<p class="d-none d-lg-block">{{ page.subdesc }}</p>
 							</div>
 						</div>
 					</div>
@@ -36,6 +49,7 @@
 						<div class="img-responsive">
 							<div class="it-hero-text-wrapper bg-dark"
 								style="padding:50px 0px; max-width:800px; margin:0px auto;">
+								<h2 class="no_toc">{{ page.title }}</h2>
 								{{ page.description }}
 							</div>
 						</div>
@@ -46,9 +60,9 @@
 			<br>
 		</div>
 	</section>
-	<section id="institution" class="institution">
+	<section id="moduli" class="institution">
 		<div class="container">
-			{% include institutions/institutions.html %}
+			{% include moduli.html %}
 			<br>
 		</div>
 	</section>
@@ -71,30 +85,7 @@
 			</div>
 		</div>
 	</section>
-	<section id="title-section" class="section-global-wrapper">
-		<div class="container-fluid-kamn">
-			<div class="row">
-				<div class="it-hero-wrapper it-dark it-overlay">
-					<!-- - img-->
-					<div class="img-responsive-wrapper"
-						style="background-image:url(https://via.placeholder.com/900x400);background-size: 900px; height: 400px; background-position: center;">
-						<div class="img-responsive">
-							<div class="it-hero-text-wrapper bg-dark"
-								style="padding:120px 0px; max-width:800px; margin:0px auto;">
-								<p class="small-title">READ ALSO</p>
-								<h1 class="no_toc">Why Bitcoin</h1>
-								<p class="d-none d-lg-block">Platea dictumst vestibulum rhoncus est pellentesque elit
-									ullamcorper dignissim cras. Dictum sit amet justo donec enim diam vulputate ut. Eu
-									nisl nunc mi ipsum faucibus.</p>
-								<div class="it-btn-container"><a class="btn btn-sm btn-secondary" href="#">GO NOW</a>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
+
 </body>
 
 {% include footer.html %}
