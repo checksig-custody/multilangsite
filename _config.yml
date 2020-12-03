@@ -56,17 +56,12 @@ defaults:
    #Pagine
   - scope: 
       path: _lang/en/**
-      type: pages
     values: 
-      layout: default
       locale: en
   - scope: 
       path:  _lang/it/**
-      type: pages
     values: 
-      layout: default
-      locale: it
-      permalink: /it/:title      
+      locale: it    
 
       
       
