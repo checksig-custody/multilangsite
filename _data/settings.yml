@@ -1,0 +1,10 @@
+
+menu:
+  en: 
+  - {uid: 'custody', path: '', url: 'custody.html'}
+  - {uid: 'institutions', path: '', url: 'institutions.html'}
+  it:
+  - {uid: 'custody', path: 'it', url: 'custody.html'}
+  - {uid: 'institutions', path: 'it', url: 'institutions.html'}
+
+

@@ -34,6 +34,42 @@ theme: minima
 plugins:
   - jekyll-feed
 
+  
+  
+defaults:
+  - values:
+        locale: en
+  # Post
+  - scope:
+      path: "_lang/it/_posts/**"
+      type: posts
+    values:
+      layout: post
+      permalink: /blog/:title
+  - scope:
+      path: _lang/it/_posts/**
+      type: posts
+    values:
+      layout: post
+      locale: it
+      permalink: /it/blog/:title
+   #Pagine
+  - scope: 
+      path: _lang/en/**
+      type: pages
+    values: 
+      layout: default
+      locale: en
+  - scope: 
+      path:  _lang/it/**
+      type: pages
+    values: 
+      layout: default
+      locale: it
+      permalink: /it/:title      
+
+      
+      
 collections:
   projects:
     output: true
