@@ -14,7 +14,7 @@
                 <h4>{{ c.title }}</h4>
                 </a>
                 <p class="text-description">{{ c.subdesc }}</p>
-				<p class="text-link"><a href="{{ c.permalink }}">READ MORE</a></p>
+				<p class="text-link"><a href="{{ site.baseurl }}{{ c.permalink }}">READ MORE</a></p>
             </li>
 			{% endif %} 
             {% endfor %}
