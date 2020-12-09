@@ -40,6 +40,11 @@ li.nav-children-bar a {
     display: flex;
     flex-direction: row-reverse;
 }
+.middle-home, .wide-top, .wide-bottom {
+    padding: 120px 5%;
+    background-position: center;
+    background-size: cover;
+}
 /*
 Theme Name:Office
 Theme URI:http://ThemeWagon.com/
