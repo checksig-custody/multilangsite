@@ -28,7 +28,7 @@
 				<div class="it-hero-wrapper it-dark it-overlay">
 					<!-- - img-->
 					<div class="img-responsive-wrapper"
-						style="background-image:url(https://via.placeholder.com/1600x400);background-size: auto 100%; height: 400px; background-position: center;">
+						style="background-image:url({{ page.slider }});background-size: auto 100%; height: 400px; background-position: center;">
 						<div class="img-responsive">
 							<div class="it-hero-text-wrapper bg-dark"
 								style="padding:120px 0px; margin:0px auto;">
@@ -56,8 +56,11 @@
 					</div>
 				</div>
 			</div>
-
-			<br>
+			<div class="container container-content">
+				<div class="row">
+					<div class="text-link">{{ content }}</div>
+				</div>
+			</div>
 		</div>
 	</section>
 	<section id="moduli" class="institution">

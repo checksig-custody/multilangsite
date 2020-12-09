@@ -1,7 +1,11 @@
 ---
 layout: faq_child
 title: Lorem ipsum dolores Institution
+header: Lorem ipsum dolores Institution
+subdesc: Lorem ipsum dolores Institution
 description: Lorem ipsum dolores Institution  Lorem ipsum dolores Institution  Lorem ipsum dolores Institution  Lorem ipsum dolores Institution  Lorem ipsum dolores Institution  Lorem ipsum dolores Institution  Lorem ipsum dolores Institution  Lorem ipsum dolores Institution  Lorem ipsum dolores Institution  Lorem ipsum dolores Institution  Lorem ipsum dolores Institution  Lorem ipsum dolores Institution  Lorem ipsum dolores Institution  Lorem ipsum dolores Institution  Lorem ipsum dolores Institution  Lorem ipsum dolores Institution  Lorem ipsum dolores Institution 
+img: https://via.placeholder.com/250x250
+slider: https://via.placeholder.com/1600x400
 url: /faq-4/
 permalink: /support/faq-4/
 locale: en
