@@ -9,21 +9,23 @@
 	<!-- Begin #title-section -->
 	<section id="title-section" class="section-global-wrapper">
 		<div class="container-fluid-kamn">
-			<div class="row">
+			<div class="row" style="background:#ccc;">
 				<div class="it-hero-wrapper it-dark it-overlay">
 					<!-- - img-->
 					<div class="img-responsive-wrapper" style="">
 						<div class="img-responsive">
 							<div class="it-hero-text-wrapper bg-dark"
-								style="padding:120px 0px;  margin:0px auto;">
-								<h1 class="no_toc">{{ page.title }}</h1>
+								style="padding:80px 0px; max-width:1170px; margin:0px auto;">
+								<h1 class="no_toc">{{ page.header }}</h1>
 								<p class="d-none d-lg-block">{{ page.subdesc }}</p>
 							</div>
 						</div>
 					</div>
 				</div>
 			</div>
+			<div class="row">
 			{% include company/nav_company.html %}
+			</div>
 		</div>
 	</section>
 	<!-- institutions -->
@@ -89,14 +91,14 @@
 		</div>
 	</section>
 {% endif %}
-{% if page.uid == 'about' or page.uid == 'referral-program' %} 
+{% if page.uid == 'referral-program' %} 
  <section id="referral" class="referral">
     <div class="container">
 			{% include company/referral.html %}
     </div>
 </section>
 {% endif %} 
-{% if page.uid == 'about' or page.uid == 'our-partners' %} 
+{% if page.uid == 'our-partners' %} 
  <section id="partners" class="partners">
     <div class="container">
 			{% include company/partners.html %}
