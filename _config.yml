@@ -20,8 +20,8 @@ plugins:
 # RSS 2.0 can be used instead of Atom by uncommenting following two lines
 #feed:
 #  path: rss-feed.xml
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "/multilangsite" # the subpath of your site, e.g. /blog
+url: "checksig-inside.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 
 # multiple language
 defaults:
