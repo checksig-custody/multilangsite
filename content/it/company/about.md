@@ -4,7 +4,7 @@ title: IT -About
 header: Company / About
 tag: about
 uid: about
-locale: en
+locale: it
 page-category: company
 subdesc: IT -Lorem ipsum dolores
 description: IT -Lorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum dolores

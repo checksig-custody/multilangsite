@@ -4,7 +4,7 @@ title: IT - Our Partners
 header: Company / Our Partners
 tag: our-partners
 uid: our-partners
-locale: en
+locale: it
 page-category: company
 subdesc: IT -Lorem ipsum dolores
 description: IT -Lorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum dolores

@@ -4,7 +4,7 @@ title: IT -Research
 header: Company / Research
 tag: research
 uid: research
-locale: en
+locale: it
 page-category: company
 subdesc: IT -Lorem ipsum dolores
 description: IT -Lorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum dolores
