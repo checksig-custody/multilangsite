@@ -45,6 +45,10 @@ li.nav-children-bar a {
     background-position: center;
     background-size: cover;
 }
+.nav-ul{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
 /*
 Theme Name:Office
 Theme URI:http://ThemeWagon.com/

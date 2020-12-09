@@ -1,11 +1,6 @@
 <!-- team -->
-<section id="team" class="team">
+<section id="moduli" class="moduli">
     <div class="container">
-        <div class="row">
-            <div class="col-lg-12 text-center">
-                <h2 class="section-heading">Moduli</h2>
-            </div>
-        </div>
         <div class="row padding">
             {% for modulo in site.data.moduli %}
 			{% if modulo.locale == page.locale and modulo.type == page.tag %}

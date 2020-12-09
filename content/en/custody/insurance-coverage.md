@@ -1,6 +1,6 @@
 ---
 layout: custody_child
-title: Insurance Governance EN
+title:  EN - Insurance Governance
 header: Custody / Insurance Governance
 subdesc: EN - orem ipsum dolores
 description: EN - Lorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum dolores
