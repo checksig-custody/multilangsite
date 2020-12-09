@@ -11,7 +11,7 @@
                 <h4>{{ f.title }}</h4>
                 </a>
                 <p class="text-description">{{ f.description }}</p>
-                <p class="text-link"><a href="{{ f.permalink }}">GO</a></p>
+                <p class="text-link"><a href="{{ site.baseurl }}{{ f.permalink }}">GO</a></p>
             </div>
 			{% endif %} 
             {% endfor %}
