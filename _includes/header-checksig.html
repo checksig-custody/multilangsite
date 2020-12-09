@@ -23,7 +23,7 @@
 		{% if page.locale == 'en' %} 
 			<a href="{{ '/' | append: item.url | relative_url}}">{{ site.data.locales[page.locale].menu[item.uid] }}</a>
 		{% else if %} 
-			<a href="/it{{ '/' | append: item.url | relative_url}}">{{ site.data.locales[page.locale].menu[item.uid] }}</a>
+			<a href="{{ '/' | append: item.url | relative_url}}">{{ site.data.locales[page.locale].menu[item.uid] }}</a>
 		{% endif %} 
 		</li>
 		{% endfor %}

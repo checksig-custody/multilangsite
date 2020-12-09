@@ -12,12 +12,12 @@ menu:
   - {uid: 'company', path: 'en', url: 'company.html'}
   - {uid: 'contact', path: 'en', url: 'contact.html'}
   it:
-  - {uid: 'custody', path: 'en', url: 'custody.html'}
-  - {uid: 'institutions', path: 'it', url: 'institutions.html'}
-  - {uid: 'why-bitcoin', path: 'it', url: 'why-bitcoin.html'}
-  - {uid: 'support', path: 'it', url: 'support.html'}
-  - {uid: 'company', path: 'it', url: 'company.html'}
-  - {uid: 'contact', path: 'it', url: 'contact.html'}
+  - {uid: 'custody', path: 'it', url: 'it/custody.html'}
+  - {uid: 'institutions', path: 'it', url: 'it/institutions.html'}
+  - {uid: 'why-bitcoin', path: 'it', url: 'it/why-bitcoin.html'}
+  - {uid: 'support', path: 'it', url: 'it/support.html'}
+  - {uid: 'company', path: 'it', url: 'it/company.html'}
+  - {uid: 'contact', path: 'it', url: 'it/contact.html'}
 
 # Available social icons are powered by Font Awesome, so you can use any icon that they offer
 social:
