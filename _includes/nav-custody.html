@@ -1,9 +1,0 @@
-        <div class="row padding">
-            <div class="col-lg-12 col-md-12 text-center">
-				<ul>
-					{% for c in site.custody %}
-						<li class="text-link {% if c.title == page.title %}active{% endif %}"><a href="{{ site.baseurl }}/{{ c.url }}">{{ c.title }}</a></li>
-					{% endfor %}
-				</ul>
-			</div>
-        </div>

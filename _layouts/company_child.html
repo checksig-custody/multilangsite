@@ -1,0 +1,130 @@
+<!doctype html>
+<html lang="en">
+
+{% include head-checksig.html %}
+{% include header-checksig.html %}
+{% include script-checksig.html %}
+
+<body>
+	<!-- Begin #title-section -->
+	<section id="title-section" class="section-global-wrapper">
+		<div class="container-fluid-kamn">
+			<div class="row">
+				<div class="it-hero-wrapper it-dark it-overlay">
+					<!-- - img-->
+					<div class="img-responsive-wrapper" style="">
+						<div class="img-responsive">
+							<div class="it-hero-text-wrapper bg-dark"
+								style="padding:120px 0px; max-width:800px; margin:0px auto;">
+								<h1 class="no_toc">{{ page.title }}</h1>
+								<p class="d-none d-lg-block">{{ page.subdesc }}</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			{% include company/nav_company.html %}
+		</div>
+	</section>
+	<!-- institutions -->
+	<section id="institution" class="institution">
+		<div class="container">
+			<div class="row">
+				<div class="it-hero-wrapper it-dark it-overlay">
+					<!-- - img-->
+					<div class="img-responsive-wrapper" style="">
+						<div class="img-responsive">
+							<div class="it-hero-text-wrapper bg-dark"
+								style="padding:50px 0px; max-width:800px; margin:0px auto;">
+								<h2 class="no_toc">{{ page.title }}</h2>
+								{{ page.description }}
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<br>
+		</div>
+	</section>
+{% if page.uid == 'about' or page.uid == 'research' %} 
+ <section id="vision" class="vision">
+    <div class="container">
+			{% include company/vision.html %}
+    </div>
+</section>
+{% endif %} 
+{% if page.uid == 'about' %} 
+<section id="team" class="team">
+    <div class="contain bxslider">
+			{% include company/team.html %}
+    </div>
+</section>	
+{% endif %} 
+{% if page.uid == 'research' %} 
+<section id="research" class="research">
+    <div class="contain bxslider">
+			{% include company/company-moduli.html %}
+    </div>
+</section>
+<section id="title-section" class="section-global-wrapper">
+		<div class="container-fluid-kamn">
+			<div class="row">
+				<div class="it-hero-wrapper it-dark it-overlay">
+					<!-- - img-->
+					<div class="img-responsive-wrapper" style="background-image:url(https://via.placeholder.com/900x400);background-size: 900px; height: 400px; background-position: center;">
+						<div class="img-responsive">
+							<div class="it-hero-text-wrapper bg-dark" style="padding:120px 0px; max-width:800px; margin:0px auto;">
+								<h1 class="no_toc">Digital Gold Insitute</h1>
+								<p class="d-none d-lg-block">Platea dictumst vestibulum rhoncus est pellentesque elit
+									ullamcorper dignissim cras. Dictum sit amet justo donec enim diam vulputate ut. Eu
+									nisl nunc mi ipsum faucibus.</p>
+								<div class="it-btn-container"><a class="btn btn-sm btn-secondary" href="#">GO NOW</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+{% endif %}
+{% if page.uid == 'about' or page.uid == 'referral-program' %} 
+ <section id="referral" class="referral">
+    <div class="container">
+			{% include company/referral.html %}
+    </div>
+</section>
+{% endif %} 
+{% if page.uid == 'about' or page.uid == 'our-partners' %} 
+ <section id="partners" class="partners">
+    <div class="container">
+			{% include company/partners.html %}
+    </div>
+</section>
+{% endif %} 
+	<!-- Begin #company-section -->
+	<section id="company-section" class="section-global-wrapper">
+		<div class="container-fluid-kamn">
+			<div class="row">
+				<div class="it-hero-wrapper it-dark it-overlay">
+					<!-- - img-->
+					<div class="img-responsive-wrapper">
+						<div class="img-responsive">
+							<div class="it-hero-text-wrapper bg-dark"
+								style="padding:120px 0px; max-width:800px; margin:0px auto;">
+								<h1 class="no_toc">FILL IN THE FORM FURTHER INFORMATION</h1>
+								<p class="d-none d-lg-block">FORM</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+</body>
+
+{% include footer-checksig.html %}
+
+</html>

@@ -4,12 +4,15 @@
             </div>
         </div>
         <div class="row padding">
-            {% for f in site.faq %}
+		{% assign folder1 = site.pages%}
+		{% for f in folder1 %}
+		{% if f.locale == page.locale and f.page-category == 'faq' %} 
             <div class="col-lg-6 col-md-6 text-center">
                 <h4>{{ f.title }}</h4>
                 </a>
                 <p class="text-description">{{ f.description }}</p>
-                <p class="text-link"><a href="{{ site.baseurl }}/{{ f.url }}">GO</a></p>
+                <p class="text-link"><a href="{{ f.permalink }}">GO</a></p>
             </div>
+			{% endif %} 
             {% endfor %}
         </div>

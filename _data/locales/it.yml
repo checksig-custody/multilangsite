@@ -1,7 +1,23 @@
 name: IT
 
+blog:
+  title: Checksig IT
+  description:  Lorem impsum Checksig IT
+  author: Dgi
+
 menu: 
-  home: Home IT
+  home: Home
   custody: Custody IT
-  institutions: Institutions IT
-  whybitcoin: Why Bitcoin IT
+  institutions: Institutions
+  why-bitcoin: Why Bitcoin
+  support: Support
+  company: Company
+  contact: Contacts
+
+page:
+  next: Newer
+  prev: Older
+
+post:
+  related: "You may also enjoy:"
+  date_prefix: Written on

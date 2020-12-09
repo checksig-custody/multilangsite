@@ -1,10 +1,29 @@
+# Change 'comments' to true for Disqus comments
+disqus:
+  comments: false
+  disqus_shortname: 'diabled-disqus'
 
 menu:
   en: 
-  - {uid: 'custody', path: '', url: 'custody.html'}
-  - {uid: 'institutions', path: '', url: 'institutions.html'}
+  - {uid: 'custody', path: 'en', url: 'custody.html'}
+  - {uid: 'institutions', path: 'en', url: 'institutions.html'}
+  - {uid: 'why-bitcoin', path: 'en', url: 'why-bitcoin.html'}
+  - {uid: 'support', path: 'en', url: 'support.html'}
+  - {uid: 'company', path: 'en', url: 'company.html'}
+  - {uid: 'contact', path: 'en', url: 'contact.html'}
   it:
-  - {uid: 'custody', path: 'it', url: 'custody.html'}
+  - {uid: 'custody', path: 'en', url: 'custody.html'}
   - {uid: 'institutions', path: 'it', url: 'institutions.html'}
+  - {uid: 'why-bitcoin', path: 'it', url: 'why-bitcoin.html'}
+  - {uid: 'support', path: 'it', url: 'support.html'}
+  - {uid: 'company', path: 'it', url: 'company.html'}
+  - {uid: 'contact', path: 'it', url: 'contact.html'}
 
-
+# Available social icons are powered by Font Awesome, so you can use any icon that they offer
+social:
+- {show: true, icon: 'github', link: 'https://github.com/lexcao'}
+- {show: true, icon: 'twitter', link: 'https://twitter.com/lexcao'}
+- {show: false, icon: 'weibo', link: 'https://weibo.com'}
+- {show: true, icon: 'envelope', link: 'mailto:lexcao@foxmail.com'}
+- {show: false, icon: 'rss-square', link: '/feed.xml'}
+# - {icon: 'rss-square', link: '/rss-feed.xml'}

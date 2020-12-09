@@ -1,4 +1,45 @@
+#title-section .col-lg-12.col-md-12, #title-section .col-lg-6.col-md-6{
+    background-size: auto 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+li.nav-children-bar {
+    float: left;
+	padding: 0px 20px;
+    text-transform: uppercase;
+}
+ul.nav-ul {
+    display: inline-block;
+}
+li.nav-children-bar.active {
+    background: transparent !important;
+    color: white;
+}
 
+li.nav-children-bar.active a {
+    font-weight: 800;
+}
+li.nav-children-bar a {
+    color: black;
+}
+.back-header {
+    padding: 200px;
+    background-size: auto 100%;
+    background-position: center;
+	background-repeat: no-repeat;
+}
+#bitcoins .container:nth-child(even) .row.padding {
+	display: -webkit-flex; /* Safari */
+    -webkit-flex-direction: row-reverse; /* Safari 6.1+ */
+    display: flex;
+    flex-direction: row-reverse;
+}
+#vision .container > .row:nth-child(even)  {
+    display: -webkit-flex;
+    -webkit-flex-direction: row-reverse;
+    display: flex;
+    flex-direction: row-reverse;
+}
 /*
 Theme Name:Office
 Theme URI:http://ThemeWagon.com/
@@ -89,12 +130,7 @@ h5 {
 #custody .content-inner {
     padding: 30px;
 }
-#bitcoins .container:nth-child(even) .row.padding {
-	display: -webkit-flex; /* Safari */
-    -webkit-flex-direction: row-reverse; /* Safari 6.1+ */
-    display: flex;
-    flex-direction: row-reverse;
-}
+
  /*
 * ==========================================================================
 * Home

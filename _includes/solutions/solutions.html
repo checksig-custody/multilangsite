@@ -1,0 +1,17 @@
+        <div class="row padding" style="background:#ddd;padding:20px;">
+		{% assign folder1 = site.pages%}
+		{% for solution in folder1 %}
+		{% if solution.locale == page.locale and solution.page-category == 'solutions' and solution.type == page.uid %} 
+            <div class="col-lg-6 col-md-6 text-center">
+				<div class="content-inner">
+                <img class="mx-auto rounded-circle" src="{{ solution.img }}"
+                    alt="{{ solution.title }}" width=130>
+                <h5>{{ solution.title }}</h5>
+                </a>
+                <p class="text-description">{{ solution.subdesc }}</p>
+                <p class="text-link"><a href="{{ solution.permalink }}">READ MORE</a></p>
+				</div>
+            </div>
+			{% endif %}
+            {% endfor %}
+        </div>

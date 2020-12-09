@@ -1,7 +1,10 @@
 <!-- Header -->
 <nav id="navbar-section" class="navbar navbar-default navbar-static-top navbar-sticky" role="navigation">
   <div class="container">
-  
+    <h3 class="masthead-title">
+    {% include language-selector.html %}
+   <!--{% include menu.html %}-->
+	</h3>  
   <div class="navbar-header">
     <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-responsive-collapse">
       <span class="sr-only">Toggle navigation</span>
@@ -13,22 +16,17 @@
   </div>
 
   <div id="navbar-spy" class="collapse navbar-collapse navbar-responsive-collapse">
+
     <ul class="nav navbar-nav pull-right">
-      <li>
-        <a href="{{ site.baseurl }}/custody.html">Custody</a>
-      </li>
-      <li>
-        <a href="{{ site.baseurl }}/institutions.html">Institutions</a>
-      </li>
-      <li>
-        <a href="{{ site.baseurl }}/why-bitcoin.html">Why Bitcoin</a>
-      </li>
-      <li>
-        <a href="{{ site.baseurl }}/support.html"><span>Support</span></a>
-      </li>
-      <li>
-        <a href="{{ site.baseurl }}/it"><span>IT</span></a>
-      </li>
+		{% for item in site.data.settings.menu[page.locale] %}
+		<li>
+		{% if page.locale == 'en' %} 
+			<a href="{{ '/' | append: item.url | relative_url}}">{{ site.data.locales[page.locale].menu[item.uid] }}</a>
+		{% else if %} 
+			<a href="/it{{ '/' | append: item.url | relative_url}}">{{ site.data.locales[page.locale].menu[item.uid] }}</a>
+		{% endif %} 
+		</li>
+		{% endfor %}
     </ul>         
   </div>
   </div>

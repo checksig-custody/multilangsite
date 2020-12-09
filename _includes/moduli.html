@@ -8,7 +8,7 @@
         </div>
         <div class="row padding">
             {% for modulo in site.data.moduli %}
-			{% if modulo.type == page.tag %}
+			{% if modulo.locale == page.locale and modulo.type == page.tag %}
             <div class="col-lg-6 col-md-6 text-center">
 				<div class="module-custody">
                 <h4>{{ modulo.name }}</h4>
