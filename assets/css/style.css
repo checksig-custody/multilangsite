@@ -40,8 +40,18 @@ li.nav-children-bar a {
     display: flex;
     flex-direction: row-reverse;
 }
-.middle-home, .wide-top, .wide-bottom {
+.wide-top .top{
     padding: 120px 5%;
+    background-position: center;
+    background-size: cover;
+}
+.wide-bottom .bottom {
+    padding: 30px 5% 50px;
+    background-position: center;
+    background-size: cover;
+}
+.middle-home .middle  {
+    padding: 30px 5%;
     background-position: center;
     background-size: cover;
 }
@@ -53,6 +63,27 @@ li.nav-children-bar a {
 .it-hero-text-wrapper.bg-dark{
     margin: 0px auto;
     max-width: 1170px;
+}
+.alert {
+    font-size: 11px!important;
+    color: red!important;
+    display: none;
+    padding: 0px!important;
+    margin: 0px!important;
+}
+a#show {
+    padding: 5px 10px;
+    color: red;
+    border: 1px solid;
+    border-radius: 50%;
+    font-size: 12px;
+    font-family: Times New Roman;
+    font-style: italic;
+    cursor: pointer;
+}
+.language-selector, .social-menu {
+	float:right;
+	padding-left: 20px;
 }
 /*
 Theme Name:Office
@@ -164,23 +195,27 @@ h5 {
 }
 
 .content-inner a {
-    background: #9A999A;
+    background: #60A0BA;
     padding: 10px 40px;
     color: white;
     text-transform: uppercase;
 	font-size:12px;
-	font-weight:400px;
+	font-weight:400;
     display: table;
     margin: 0px auto;
+	border-radius: 10px;
+    box-shadow: 5px 5px 5px rgba(0,0,0,0.2);
 }
 
 .text-link a {
-    background: #9A999A;
+    background: #60A0BA;
     padding: 10px 40px;
     color: white;
     text-transform: uppercase;
 	font-size:12px;
-	font-weight:400px;
+	font-weight:400;
+	border-radius: 10px;
+    box-shadow: 5px 5px 5px rgba(0,0,0,0.2);
 }
 
 p.text-description{
@@ -193,7 +228,11 @@ p.text-description{
     margin: 0px auto;
 }
 #institution-sections {
-	background:#f3f3f3;
+	background:#656665;
+}
+#institution-sections h4, 
+#institution-sections p.text-description {
+	color:white;
 }
 .content-inner p.description{
     line-height: 1.2;
@@ -203,6 +242,7 @@ p.text-description{
 .content-inner h1, .content-inner p.no_toc {
     font-size: 60px;
     text-transform: uppercase;
+	color:white;
 }
 #lightSlider .active, .lSPager .active {
     background:transparent !important;
@@ -215,6 +255,47 @@ p.text-description{
 	text-transform:uppercase
 }
 
+.mwide {
+ max-width: 1300px; margin: 20px auto;	
+}
+.azure {
+ background: #60A0BA;	
+}
+.azure .content-inner h2 {
+    text-align: center;
+    font-weight: 800;
+	color:#fff;
+}
+.azure .content-inner a {
+    background: #60A0BA;
+    padding: 10px 40px;
+    color: white;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 400;
+    display: table;
+    margin: 0px auto;
+    border-radius: 10px;
+    box-shadow: none;
+    border: 1px solid white;
+} 
+.top .content-inner h2  {
+    text-align: center;
+    font-weight: 800;
+	color:#fff;
+}
+.top p.description, .azure p.description {
+    text-align: center;
+	color:#fff;
+}
+.middle.azure img {
+    max-height: 60px;
+}
+.content-inner p.description {
+    line-height: 1.2;
+    max-width: 75%;
+    margin: 20px auto;
+}
 @media (min-width: 1068px) and (max-width: 1400px) { 
  .post-sidebar{
     margin-top: 15px;
@@ -284,7 +365,7 @@ float: right;
     padding:10px;
 }
 .current span{
-    color:#55CBD2;
+    color:#1a1a1a;
 
 }
 
@@ -313,12 +394,13 @@ body {
 }
 
 a {
-    color: #55CBD2;
+    color: #1a1a1a;
     text-decoration: none;
     -o-transition: all .3s;
     -moz-transition: all .3s;
     -webkit-transition: all .3s;
     -ms-transition: all .3s;
+	font-size: 16px;
 }
 
 a:hover { color: #888; text-decoration: none; }
@@ -686,7 +768,7 @@ footer h3 {
 }
 
 #social-icons .btn-group {
-    color: #55CBD2;
+    color: #1a1a1a;
     margin-right: 15px;
 }
 #social-icons .btn-group:hover {

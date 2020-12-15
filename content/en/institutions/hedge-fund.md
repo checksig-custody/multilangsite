@@ -4,7 +4,8 @@ title: Hedge Fund
 header: Hedge Fund
 subdesc: Lorem ipsum dolores Institution 4
 description: Lorem ipsum dolores Institution 4 Lorem ipsum dolores Institution 4 Lorem ipsum dolores Institution 4 Lorem ipsum dolores Institution 4 Lorem ipsum dolores Institution 4 Lorem ipsum dolores Institution 4 Lorem ipsum dolores Institution 4 Lorem ipsum dolores Institution 4 Lorem ipsum dolores Institution 4 Lorem ipsum dolores Institution 4 Lorem ipsum dolores Institution 4 Lorem ipsum dolores Institution 4 Lorem ipsum dolores Institution 4 Lorem ipsum dolores Institution 4 Lorem ipsum dolores Institution 4 Lorem ipsum dolores Institution 4 Lorem ipsum dolores Institution 4 Lorem ipsum dolores 
-img: https://via.placeholder.com/150x150
+img: /assets/img/institutions/ico_edge_fund.svg
+slider: /assets/img/institutions/header_institutions.jpg
 url: /hedge-fund/
 permalink: /institutions/hedge-fund/
 locale: en

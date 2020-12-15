@@ -4,7 +4,8 @@ title: Family Officer
 header: Family Officer
 subdesc: Lorem ipsum dolores Institution 4
 description: Lorem ipsum dolores Institution 4 Lorem ipsum dolores Institution 4 Lorem ipsum dolores Institution 4 Lorem ipsum dolores Institution 4 Lorem ipsum dolores Institution 4 Lorem ipsum dolores Institution 4 Lorem ipsum dolores Institution 4 Lorem ipsum dolores Institution 4 Lorem ipsum dolores Institution 4 Lorem ipsum dolores Institution 4 Lorem ipsum dolores Institution 4 Lorem ipsum dolores Institution 4 Lorem ipsum dolores Institution 4 Lorem ipsum dolores Institution 4 Lorem ipsum dolores Institution 4 Lorem ipsum dolores Institution 4 Lorem ipsum dolores Institution 4 Lorem ipsum dolores 
-img: https://via.placeholder.com/150x150
+img: /assets/img/institutions/ico_family_officer.svg
+slider: /assets/img/institutions/header_institutions.jpg
 url: /family-officer/
 permalink: /institutions/family-officer/
 locale: en

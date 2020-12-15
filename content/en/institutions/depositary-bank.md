@@ -4,7 +4,8 @@ title: Depositary Bank
 header: Depositary Bank
 subdesc: Lorem ipsum dolores Institution 4
 description: Lorem ipsum dolores Institution 4 Lorem ipsum dolores Institution 4 Lorem ipsum dolores Institution 4 Lorem ipsum dolores Institution 4 Lorem ipsum dolores Institution 4 Lorem ipsum dolores Institution 4 Lorem ipsum dolores Institution 4 Lorem ipsum dolores Institution 4 Lorem ipsum dolores Institution 4 Lorem ipsum dolores Institution 4 Lorem ipsum dolores Institution 4 Lorem ipsum dolores Institution 4 Lorem ipsum dolores Institution 4 Lorem ipsum dolores Institution 4 Lorem ipsum dolores Institution 4 Lorem ipsum dolores Institution 4 Lorem ipsum dolores Institution 4 Lorem ipsum dolores 
-img: https://via.placeholder.com/150x150
+img: /assets/img/institutions/ico_depositary_bank.svg
+slider: /assets/img/institutions/header_institutions.jpg
 url: /depositary-bank/
 permalink: /institutions/depositary-bank/
 locale: en

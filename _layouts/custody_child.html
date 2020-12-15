@@ -16,8 +16,8 @@
 						<div class="img-responsive">
 							<div class="it-hero-text-wrapper bg-dark"
 								style="padding:80px 0px; max-width:1170px; margin:0px auto;">
-								<h1 class="no_toc">{{ page.header }}</h1>
-								<p class="d-none d-lg-block">{{ page.subdesc }}</p>
+								<h1 class="no_toc"><span class="alert">[header]</span>{{ page.header }}</h1>
+								<p class="d-none d-lg-block"><span class="alert">[subdesc]</span>{{ page.subdesc }}</p>
 							</div>
 						</div>
 					</div>
@@ -32,7 +32,7 @@
 	<section id="institution" class="institution">
 		<div class="container container-image">
 			<div class="row">
-				<div class="it-hero-wrapper it-dark it-overlay back-header" style="background-image:url({{ page.slider }})">	
+				<div class="it-hero-wrapper it-dark it-overlay back-header" style="background-image:url({{ site.baseurl }}{{ page.slider }})">	
 				</div>
 			</div>
 		</div>
@@ -44,8 +44,8 @@
 						<div class="img-responsive">
 							<div class="it-hero-text-wrapper bg-dark"
 								style="padding:50px 0px;  margin:0px auto;">
-								<h2 class="no_toc">{{ page.title }}</h2>
-								{{ page.description }}
+								<h2 class="no_toc"><span class="alert">[title]</span>{{ page.title }}</h2>
+								<span class="alert">[description]</span>{{ page.description }}
 							</div>
 						</div>
 					</div>
@@ -56,18 +56,18 @@
 		</div>
 		<div class="container container-content">
 			<div class="row">
-				<div class="content">{{ content }}</div>
+				<div class="content"><span class="alert">[contenuto della pagina]</span>{{ content }}</div>
 			</div>
 		</div>
 	</section>
-	<section id="moduli" class="institution">
+	<section id="moduli" class="institution"><span class="alert">contenuto da modificare in collection _data/moduli.yml filtrati per [tag] e [locale]</span>
 		<div class="container">
 			{% include moduli.html %}
 			<br>
 		</div>
 	</section>
-	<!-- Begin #company-section -->
-	<section id="company-section" class="section-global-wrapper">
+	<!-- Begin #form-section -->
+	<section id="form-section" class="section-global-wrapper"><span class="alert">sezione che incorporerà google forms </span>
 		<div class="container-fluid-kamn">
 			<div class="row">
 				<div class="it-hero-wrapper it-dark it-overlay">

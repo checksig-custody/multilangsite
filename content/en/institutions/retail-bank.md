@@ -4,7 +4,8 @@ title: Retail Bank
 header: Retail Bank
 subdesc: Lorem ipsum dolores Institution
 description: Lorem ipsum dolores Institution  Lorem ipsum dolores Institution  Lorem ipsum dolores Institution  Lorem ipsum dolores Institution  Lorem ipsum dolores Institution  Lorem ipsum dolores Institution  Lorem ipsum dolores Institution  Lorem ipsum dolores Institution  Lorem ipsum dolores Institution  Lorem ipsum dolores Institution  Lorem ipsum dolores Institution  Lorem ipsum dolores Institution  Lorem ipsum dolores Institution  Lorem ipsum dolores Institution  Lorem ipsum dolores Institution  Lorem ipsum dolores Institution  Lorem ipsum dolores Institution  
-img: https://via.placeholder.com/150x150
+img: /assets/img/institutions/ico_retail_bank.svg
+slider: /assets/img/institutions/header_institutions.jpg
 url: /retail-bank/
 permalink: /institutions/retail-bank/
 locale: en

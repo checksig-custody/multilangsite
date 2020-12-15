@@ -13,12 +13,12 @@
 				<div class="it-hero-wrapper it-dark it-overlay">
 					<!-- - img-->
 					<div class="img-responsive-wrapper"
-						style="background-image:url({{ page.slider }});background-size: auto 100%; height: 400px; background-position: center;">
+						style="background-image:url({{ site.baseurl }}{{ page.slider }});background-size: auto 100%; height: 400px; background-position: center;">
 						<div class="img-responsive">
 							<div class="it-hero-text-wrapper bg-dark"
 								style="padding:120px 0px; margin:0px auto;">
-								<h1 class="no_toc">{{ page.header }}</h1>
-								<p class="d-none d-lg-block">{{ page.subdesc }}</p>
+								<h1 class="no_toc"><span class="alert">[header]</span>{{ page.header }}</h1>
+								<p class="d-none d-lg-block"><span class="alert">[subdesc]</span>{{ page.subdesc }}</p>
 							</div>
 						</div>
 					</div>
@@ -36,8 +36,8 @@
 						<div class="img-responsive">
 							<div class="it-hero-text-wrapper bg-dark"
 								style="padding:50px 0px; margin:0px auto;">
-								<h2>{{ page.title }}</h2>
-								<p>{{ page.description }}</p>
+								<h2><span class="alert">[title]</span>{{ page.title }}</h2>
+								<p><span class="alert">[description]</span>{{ page.description }}</p>
 							</div>
 						</div>
 					</div>
@@ -46,18 +46,18 @@
 		</div>
 		<div class="container container-content">
 			<div class="row">
-				<div class="text-link">{{ content }}</div>
+				<div class="text-link"><span class="alert">[contenuto della pagina]</span>{{ content }}</div>
 			</div>
 		</div>
 	</section>
-	<section id="institution" class="institution">
+	<section id="institution" class="institution"><span class="alert">contenuto da modificare in content/{{ page.locale }}/institutions</span>
 		<div class="container">
 			{% include institutions/institutions.html %}
 			<br>
 		</div>
 	</section>
 	<!-- Begin #company-section -->
-	<section id="form-section" class="section-global-wrapper">
+	<section id="form-section" class="section-global-wrapper"><span class="alert">sezione che incorporerà google forms </span>
 		<div class="container-fluid-kamn">
 			<div class="row">
 				<div class="it-hero-wrapper it-dark it-overlay">
@@ -75,7 +75,7 @@
 			</div>
 		</div>
 	</section>
-	<section id="cta-section" class="section-global-wrapper">
+	<section id="cta-section" class="section-global-wrapper"><span class="alert">sezione che richiamerà i dati dell'articolo relativo -in implementazione </span>
 		<div class="container-fluid-kamn">
 			<div class="row">
 				<div class="it-hero-wrapper it-dark it-overlay">

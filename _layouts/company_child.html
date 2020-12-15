@@ -16,8 +16,8 @@
 						<div class="img-responsive">
 							<div class="it-hero-text-wrapper bg-dark"
 								style="padding:80px 0px; max-width:1170px; margin:0px auto;">
-								<h1 class="no_toc">{{ page.header }}</h1>
-								<p class="d-none d-lg-block">{{ page.subdesc }}</p>
+								<h1 class="no_toc"><span class="alert">[header]</span>{{ page.header }}</h1>
+								<p class="d-none d-lg-block"><span class="alert">[subdesc]</span>{{ page.subdesc }}</p>
 							</div>
 						</div>
 					</div>
@@ -38,8 +38,8 @@
 						<div class="img-responsive">
 							<div class="it-hero-text-wrapper bg-dark"
 								style="padding:50px 0px; margin:0px auto;">
-								<h2 class="no_toc">{{ page.title }}</h2>
-								{{ page.description }}
+								<h2 class="no_toc"><span class="alert">[title]</span>{{ page.title }}</h2>
+								<span class="alert">[description]</span>{{ page.description }}
 							</div>
 						</div>
 					</div>
@@ -49,27 +49,34 @@
 			<br>
 		</div>
 	</section>
-{% if page.uid == 'about' or page.uid == 'research' %} 
- <section id="vision" class="vision">
+{% if page.uid == 'research' %} 
+ <section id="vision" class="vision"><span class="alert">contenuto da modificare in collection _data/research.yml</span>
+    <div class="container">
+			{% include company/research.html %}
+    </div>
+</section>
+{% endif %} 
+{% if page.uid == 'about' %} 
+ <section id="vision" class="vision"><span class="alert">contenuto da modificare in collection _data/vision.yml</span>
     <div class="container">
 			{% include company/vision.html %}
     </div>
 </section>
 {% endif %} 
 {% if page.uid == 'about' %} 
-<section id="team" class="team">
+<section id="team" class="team"><span class="alert">contenuto da modificare in collection _data/team.yml</span>
     <div class="contain bxslider">
 			{% include company/team.html %}
     </div>
 </section>	
 {% endif %} 
-{% if page.uid == 'research' %} 
+{% if page.uid == 'research' %} <span class="alert">contenuto da modificare in collection _data/moduli.yml filtrati per [type] e [locale] </span>
 <section id="research" class="research">
     <div class="contain bxslider">
 			{% include company/company-moduli.html %}
     </div>
 </section>
-<section id="title-section" class="section-global-wrapper">
+<section id="dgi-section" class="section-global-wrapper"><span class="alert">sezione per link a dgi.it - in implementazione </span>
 		<div class="container-fluid-kamn">
 			<div class="row">
 				<div class="it-hero-wrapper it-dark it-overlay">
@@ -92,21 +99,21 @@
 	</section>
 {% endif %}
 {% if page.uid == 'referral-program' %} 
- <section id="referral" class="referral">
+ <section id="referral" class="referral"><span class="alert">contenuto da modificare in collection _data/referral.yml distinti per [locale]</span>
     <div class="container">
 			{% include company/referral.html %}
     </div>
 </section>
 {% endif %} 
 {% if page.uid == 'our-partners' %} 
- <section id="partners" class="partners">
+ <section id="partners" class="partners"><span class="alert">contenuto da modificare in collection _data/partner.yml distinti per [locale] e [tag] </span>
     <div class="container">
 			{% include company/partners.html %}
     </div>
 </section>
 {% endif %} 
 	<!-- Begin #company-section -->
-	<section id="company-section" class="section-global-wrapper">
+	<section id="form-section" class="section-global-wrapper"><span class="alert">sezione che incorporerà google forms </span>
 		<div class="container-fluid-kamn">
 			<div class="row">
 				<div class="it-hero-wrapper it-dark it-overlay">

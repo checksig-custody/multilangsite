@@ -4,7 +4,8 @@ title: High Net Worth Individual
 header: High Net Worth Individual
 subdesc: Lorem ipsum dolores Institution 4
 description: Lorem ipsum dolores Institution 4 Lorem ipsum dolores Institution 4 Lorem ipsum dolores Institution 4 Lorem ipsum dolores Institution 4 Lorem ipsum dolores Institution 4 Lorem ipsum dolores Institution 4 Lorem ipsum dolores Institution 4 Lorem ipsum dolores Institution 4 Lorem ipsum dolores Institution 4 Lorem ipsum dolores Institution 4 Lorem ipsum dolores Institution 4 Lorem ipsum dolores Institution 4 Lorem ipsum dolores Institution 4 Lorem ipsum dolores Institution 4 Lorem ipsum dolores Institution 4 Lorem ipsum dolores Institution 4 Lorem ipsum dolores Institution 4 Lorem ipsum dolores 
-img: https://via.placeholder.com/150x150
+img: /assets/img/institutions/ico_high_net.svg
+slider: /assets/img/institutions/header_institutions.jpg
 url: /high-net-worth-individual/
 permalink: /institutions/high-net-worth-individual/
 locale: en

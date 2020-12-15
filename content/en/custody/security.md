@@ -4,8 +4,8 @@ title: EN -Security
 header: Custody / Security
 subdesc: EN -Lorem ipsum dolores Institution 4
 description: EN -Lorem ipsum dolores Institution 4 Lorem ipsum dolores Institution 4 Lorem ipsum dolores Institution 4 Lorem ipsum dolores Institution 4 Lorem ipsum dolores Institution 4 Lorem ipsum dolores Institution 4 Lorem ipsum dolores Institution 4 Lorem ipsum dolores Institution 4 Lorem ipsum dolores Institution 4 Lorem ipsum dolores Institution 4 Lorem ipsum dolores Institution 4 Lorem ipsum dolores Institution 4 Lorem ipsum dolores Institution 4 Lorem ipsum dolores Institution 4 Lorem ipsum dolores Institution 4 Lorem ipsum dolores Institution 4 Lorem ipsum dolores Institution 4 Lorem ipsum dolores 
-img: https://via.placeholder.com/250x250
-slider: https://via.placeholder.com/1600x400
+img: /assets/img/custody/ico_security.svg
+slider: /assets/img/custody/header_transparency.jpg
 url: /security/
 permalink: /custody/security/
 locale: en

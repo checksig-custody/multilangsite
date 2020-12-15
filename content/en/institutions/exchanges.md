@@ -4,7 +4,8 @@ title: Exchanges
 header: Exchanges
 subdesc: Lorem ipsum dolores Institution 4
 description: Lorem ipsum dolores Institution 4 Lorem ipsum dolores Institution 4 Lorem ipsum dolores Institution 4 Lorem ipsum dolores Institution 4 Lorem ipsum dolores Institution 4 Lorem ipsum dolores Institution 4 Lorem ipsum dolores Institution 4 Lorem ipsum dolores Institution 4 Lorem ipsum dolores Institution 4 Lorem ipsum dolores Institution 4 Lorem ipsum dolores Institution 4 Lorem ipsum dolores Institution 4 Lorem ipsum dolores Institution 4 Lorem ipsum dolores Institution 4 Lorem ipsum dolores Institution 4 Lorem ipsum dolores Institution 4 Lorem ipsum dolores Institution 4 Lorem ipsum dolores 
-img: https://via.placeholder.com/150x150
+img: /assets/img/institutions/ico_exchange.svg
+slider: /assets/img/institutions/header_institutions.jpg
 url: /exchanges/
 permalink: /institutions/exchanges/
 locale: en

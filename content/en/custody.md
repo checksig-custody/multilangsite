@@ -5,7 +5,8 @@ header: Custody
 locale: en
 uid: custody
 permalink: /custody.html
-slider: https://via.placeholder.com/1600x400
+slider: /assets/img/custody/header_custody.jpg
+slider-home: /assets/img/home/header_homepage.jpg
 page-tag: sectop
 subdesc: EN -Lorem ipsum dolores
 description: EN -Lorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum dolores

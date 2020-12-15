@@ -16,8 +16,8 @@
 						<div class="img-responsive">
 							<div class="it-hero-text-wrapper bg-dark"
 								style="padding:120px 0px; margin:0px auto;">
-								<h1 class="no_toc">{{ page.header }}</h1>
-								<p class="d-none d-lg-block">{{ page.subdesc }}</p>
+								<h1 class="no_toc"><span class="alert">[header]</span>{{ page.header }}</h1>
+								<p class="d-none d-lg-block"><span class="alert">[subdesc]</span>{{ page.subdesc }}</p>
 							</div>
 						</div>
 					</div>
@@ -28,10 +28,10 @@
 				<div class="it-hero-wrapper it-dark it-overlay">
 					<!-- - img-->
 					<div class="img-responsive-wrapper"
-						style="background-image:url({{ page.slider }});background-size: auto 100%; height: 400px; background-position: center;">
+						style="background-image:url({{ site.baseurl }}{{ page.slider }});background-size: auto 100%; height: 400px; background-position: center;">
 						<div class="img-responsive">
 							<div class="it-hero-text-wrapper bg-dark"
-								style="padding:120px 0px; margin:0px auto;">
+								style="padding:120px 0px; margin:0px auto;"><span class="alert">[slider]</span>
 							</div>
 						</div>
 					</div>
@@ -49,8 +49,8 @@
 						<div class="img-responsive">
 							<div class="it-hero-text-wrapper bg-dark"
 								style="padding:50px 0px; margin:0px auto;">
-								<h2 class="no_toc">{{ page.title }}</h2>
-								{{ page.description }}
+								<h2 class="no_toc"><span class="alert">[title]</span>{{ page.title }}</h2>
+								<span class="alert">[description]</span>{{ page.description }}
 							</div>
 						</div>
 					</div>
@@ -58,13 +58,13 @@
 			</div>
 			<div class="container container-content">
 				<div class="row">
-					<div class="text-link">{{ content }}</div>
+					<div class="text-link"><span class="alert">[contenuto della pagina]</span>{{ content }}</div>
 				</div>
 			</div>
 		</div>
 	</section>
 	<section id="moduli" class="institution">
-		<div class="container">
+		<div class="container">contenuto da modificare in collection _data/solutions-yml filtrati per [tag] e [locale]
 			{% include moduli.html %}
 			<br>
 		</div>

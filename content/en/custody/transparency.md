@@ -9,8 +9,8 @@ page-category: custody
 page-tag: secmid
 subdesc: EN -Lorem ipsum dolores
 description: EN -Lorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum dolores
-img: https://via.placeholder.com/250x250
-slider: https://via.placeholder.com/1600x400
+img: /assets/img/custody/ico_transparency.svg
+slider: /assets/img/custody/header_transparency.jpg
 url: /transparency/
 permalink: /custody/transparency/
 class: middle-home
