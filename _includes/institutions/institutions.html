@@ -9,7 +9,7 @@
 		{% for c in folder1 %}
 		{% if c.locale == page.locale and c.page-category == 'institutions' %} 
             <li class="text-center">
-                <img class="mx-auto rounded-circle" src="{{ c.img }}"
+                <img class="mx-auto rounded-circle" src="{{ site.baseurl }}{{ c.img }}"
                     alt="{{ c.title }}" width=130>
                 <h4>{{ c.title }}</h4>
                 </a>
