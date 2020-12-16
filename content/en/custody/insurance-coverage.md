@@ -4,8 +4,8 @@ title:  EN - Insurance Governance
 header: Custody / Insurance Governance
 subdesc: EN - orem ipsum dolores
 description: EN - Lorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum dolores
-img: https://via.placeholder.com/250x250
-slider: https://via.placeholder.com/1600x400
+img: /assets/img/custody/ico_insurance.svg
+slider: /assets/img/custody/header_transparency.jpg
 url: /insurance-governance/
 permalink: /custody/insurance-governance/
 locale: en

@@ -1,0 +1,18 @@
+{% assign uid = include.uid %}
+
+{% unless uid %}
+{% assign uid = page.uid %}
+{% assign show = true %}
+{% endunless %}
+
+{% assign cta = site.data.cta[uid]%}
+
+{% if cta %}
+<div class="thumbnail-container">
+    {% if image.crop.top and image.crop.bottom %}
+    <img style="margin-top: {{ image.crop.top }}; margin-bottom: {{ image.crop.bottom }}" src="{{ image.image.url }}">
+    {% else %}
+    <img src="{{ image.image.url }}">
+    {% endif %}
+</div>
+{% endif %}

@@ -5,8 +5,8 @@ header: Custody / Technology
 tag: technology
 subdesc: EN -Lorem ipsum dolores
 description: EN -Lorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum dolores
-img: https://via.placeholder.com/250x250
-slider: https://via.placeholder.com/1600x400
+img: /assets/img/custody/ico_technology.svg
+slider: /assets/img/custody/header_transparency.jpg
 url: /technology/
 permalink: /custody/technology/
 locale: en

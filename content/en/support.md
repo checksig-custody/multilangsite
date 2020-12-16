@@ -4,7 +4,7 @@ title: Support
 header: Support
 locale: en
 uid: support
-slider: https://via.placeholder.com/1600x400
+slider: /assets/img/support/header_support.jpg
 permalink: /support.html
 subdesc: EN -Lorem ipsum dolores
 description: EN -Lorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum dolores

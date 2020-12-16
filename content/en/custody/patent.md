@@ -4,8 +4,8 @@ title: EN -Patent
 header: Custody / Patent
 subdesc: EN -Lorem ipsum dolores
 description: EN -Lorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum dolores
-img: https://via.placeholder.com/250x250
-slider: https://via.placeholder.com/1600x400
+img: /assets/img/custody/ico_patent.svg
+slider: /assets/img/custody/header_transparency.jpg
 url: /patent/
 permalink: /custody/patent/
 locale: en
