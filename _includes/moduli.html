@@ -1,13 +1,13 @@
-<section id="moduli" class="moduli">
+<section id="moduli-child" class="moduli-child">
     <div class="container">
         <div class="row padding">
-            {% for modulo in site.data.moduli %}
+            {% for modulo in site.data.moduli  | sort: 'sort_id'%}
 			{% if modulo.locale == page.locale and modulo.type == page.tag %}
             <div class="col-lg-6 col-md-6 text-center">
 				<div class="module-custody">
-                <h4>{{ modulo.name }}</h4>
-				<p>{{ modulo.subdesc }}</p>
-				<p>{{ modulo.description }}</p>
+                <h3>{{ modulo.name }}</h3>
+				<p class="intro">{{ modulo.subdesc }}</p>
+				<p class="description">{{ modulo.description }}</p>
                 </div>
             </div>
 			{% endif %}

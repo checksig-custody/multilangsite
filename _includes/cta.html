@@ -6,13 +6,25 @@
 {% endunless %}
 
 {% assign cta = site.data.cta[uid]%}
-
 {% if cta %}
-<div class="thumbnail-container">
-    {% if image.crop.top and image.crop.bottom %}
-    <img style="margin-top: {{ image.crop.top }}; margin-bottom: {{ image.crop.bottom }}" src="{{ image.image.url }}">
-    {% else %}
-    <img src="{{ image.image.url }}">
-    {% endif %}
-</div>
+	{% assign folder1 = site.pages%}
+	{% for item in folder1 %}
+	{% if item.locale == page.locale and item.uid == cta.cta.uid %} 
+	<section id="cta-section" class="section-global-wrapper">
+		<div class="container-fluid-kamn">
+			<div class="row {{ cta.cta.class }}" style="background-image:url({{ site.baseurl }}{{ item.slider }});background-size: auto 100%;     padding: 120px 0px; background-position: center;">
+				<div class="col-lg-12 col-md-12 text-center">
+				<div class="content-inner">
+					<h4 class="no_toc">READ ALSO</h4>
+					<h2>{{ item.title }}</h2>
+					</a>
+					<p class="text-description">{{ item.subdesc }}</p>
+					<p class="text-link"><a href="{{ site.baseurl }}{{ item.permalink }}">READ MORE</a></p>
+				</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	{% endif %} 
+	{% endfor %}
 {% endif %}

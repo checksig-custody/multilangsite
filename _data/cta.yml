@@ -1,0 +1,16 @@
+home:
+  cta:
+    uid: company
+    class: wide
+custody:
+  cta:
+    uid: institutions
+    class: demi-wide
+institutions:
+  cta:
+    uid: why-bitcoin
+    class: demi-wide
+support:
+  cta:
+    uid: institutions 
+    class: demi-wide 

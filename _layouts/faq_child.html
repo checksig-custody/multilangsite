@@ -77,10 +77,10 @@
 					<!-- - img-->
 					<div class="img-responsive-wrapper">
 						<div class="img-responsive">
-							<div class="it-hero-text-wrapper bg-dark"
+							<div class="it-hero-text-wrapper bg-light"
 								style="padding:120px 0px; max-width:800px; margin:0px auto;">
 								<h1 class="no_toc">FILL IN THE FORM FURTHER INFORMATION</h1>
-								<p class="d-none d-lg-block">FORM</p>
+								<p class="d-none d-lg-block">{% include form.html %}</p>
 							</div>
 						</div>
 					</div>
@@ -88,7 +88,9 @@
 			</div>
 		</div>
 	</section>
-
+	{% if site.data.cta[page.uid] %}
+	{% include cta.html uid = page.uid %}
+	{% endif %}
 </body>
 
 {% include footer-checksig.html %}

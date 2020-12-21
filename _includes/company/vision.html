@@ -1,4 +1,4 @@
-	{% for modulo in site.data.vision %}
+	{% for modulo in site.data.vision | sort: 'sort_id' %}
 	{% if modulo.locale == page.locale and modulo.tag == page.uid %}
 	<div class="row padding">
 		<div class="col-lg-4 col-md-4 text-center">

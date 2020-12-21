@@ -5,7 +5,7 @@
         </div>
         <div class="row padding">
 		<ul id="lightSlider">
-		{% assign folder1 = site.pages%}
+		{% assign folder1 = site.pages | sort: 'sort_id' %}
 		{% for c in folder1 %}
 		{% if c.locale == page.locale and c.page-category == 'institutions' %} 
             <li class="text-center">

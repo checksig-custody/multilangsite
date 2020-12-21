@@ -6,7 +6,7 @@
         </div>
         <div class="row padding">
 		<ul id="lightSlider_pr">
-			{% for modulo in site.data.partner %}
+			{% for modulo in site.data.partner  | sort: 'sort_id'%}
 			{% if modulo.locale == page.locale and modulo.tag =='partner-regulation' %}
 			<li>
 					<img src="{{ modulo.photo }}"/>
@@ -27,7 +27,7 @@
         </div>
         <div class="row padding">
 		<ul id="lightSlider_pa">
-			{% for modulo in site.data.partner %}
+			{% for modulo in site.data.partner  | sort: 'sort_id'%}
 			{% if modulo.locale == page.locale and modulo.tag =='partner-acquisto' %}
 			<li>
 					<img src="{{ modulo.photo }}"/>
@@ -48,7 +48,7 @@
         </div>
         <div class="row padding">
 		<ul id="lightSlider_pt">
-			{% for modulo in site.data.partner %}
+			{% for modulo in site.data.partner  | sort: 'sort_id' %}
 			{% if modulo.locale == page.locale and modulo.tag =='partner-technlology' %}
 			<li>
 					<img src="{{ modulo.photo }}"/>

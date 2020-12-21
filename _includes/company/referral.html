@@ -1,4 +1,4 @@
-	{% for modulo in site.data.referral %}
+	{% for modulo in site.data.referral  | sort: 'sort_id'%}
 	{% if modulo.locale == page.locale and modulo.tag == page.uid %}
 	<div class="row padding">
 		<div class="col-lg-6 col-md-6 text-center">
