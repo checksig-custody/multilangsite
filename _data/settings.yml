@@ -5,6 +5,7 @@ disqus:
 
 menu:
   en: 
+  - {uid: 'home', path: 'en', url: 'index.html'}
   - {uid: 'custody', path: 'en', url: 'custody.html'}
   - {uid: 'institutions', path: 'en', url: 'institutions.html'}
   - {uid: 'why-bitcoin', path: 'en', url: 'why-bitcoin.html'}
@@ -12,6 +13,7 @@ menu:
   - {uid: 'company', path: 'en', url: 'company.html'}
   - {uid: 'contact', path: 'en', url: 'contact.html'}
   it:
+  - {uid: 'home', path: 'it', url: 'it/index.html'}
   - {uid: 'custody', path: 'it', url: 'it/custody.html'}
   - {uid: 'institutions', path: 'it', url: 'it/institutions.html'}
   - {uid: 'why-bitcoin', path: 'it', url: 'it/why-bitcoin.html'}

@@ -5,6 +5,7 @@ header: Support
 locale: en
 uid: support
 slider: /assets/img/support/header_support.jpg
+sub-header: /assets/img/support/img_bitcoin.jpg
 permalink: /support.html
 subdesc: EN -Lorem ipsum dolores
 description: EN -Lorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum dolores

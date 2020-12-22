@@ -2,11 +2,18 @@
     margin-right: 0px;
     margin-left: 0px;
 }
-
+.menu-container .inner-content {
+    padding: 15px 0px;
+    max-width: 1300px;
+    margin: 0px auto;
+}
 #title-section .col-lg-12.col-md-12, #title-section .col-lg-6.col-md-6{
     background-size: auto 100%;
     background-repeat: no-repeat;
     background-position: center;
+}
+#title .container-fluid-kamn:after {
+content:"V";
 }
 li.nav-children-bar {
     float: left;
@@ -33,6 +40,12 @@ li.nav-children-bar a {
     background-position: center;
 	background-repeat: no-repeat;
 }
+
+.container-content {
+    padding: 50px 0px;
+}
+
+
 #bitcoins .container:nth-child(even) .row.padding {
 	display: -webkit-flex; /* Safari */
     -webkit-flex-direction: row-reverse; /* Safari 6.1+ */
@@ -142,6 +155,60 @@ a#show {
 .language-selector, .social-menu {
 	float:right;
 	padding-left: 20px;
+}
+
+.faq {
+    width: 100%;
+    border: 0px solid #222;
+    background: #f3f3f3;
+    padding: 30px 0px;
+}
+
+
+button.accordion {
+    background-color: #b3b2b3;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    transition: 0.4s;
+	margin-top: 15px;
+	padding: 18px 30px;
+    color: white;
+    text-transform: uppercase;
+    font-size: 18px;	
+}
+
+button.accordion.active, button.accordion:hover {
+    background-color: #67A3BF; 
+}
+
+div.panel {
+    padding: 40px 30px;
+    display: none;
+    background-color: white;
+	margin: 0px;
+}
+button.accordion i{
+    float: right;
+    color: white;
+    font-size: 23px;
+    font-weight: 800;
+}
+button.accordion.active i{
+    transform: rotate(180deg);
+}
+
+div.panel.show {
+    display: block !important;
+}
+.faq p.text-description {
+    line-height: 1.2;
+    max-width: 100%;
+	margin: 10px auto 15px;
 }
 /*
 Theme Name:Office
@@ -614,7 +681,6 @@ float: right;
 body {
     font-size: 15px;
     line-height: 24px;
-    background:#F8FAFF;
 }
 
 a {
@@ -697,8 +763,8 @@ address {
 }
 .navbar {
   font-weight: bold;
-  padding-top: 15px;
-  padding-bottom: 15px;
+  padding-top: 0px;
+  padding-bottom: 0px;
   margin-bottom: 0;
 }
 /*
