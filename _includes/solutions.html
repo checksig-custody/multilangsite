@@ -1,5 +1,5 @@
 			<div class="row padding">
-            {% for solution in site.solutions %}
+            {% for solution in site.solutions | sort: 'sort_ranking' | reverse %}
 			{% if solution.type == 'custody' %}
             <div class="col-lg-6 col-md-6 text-center">
 				<div class="content-inner">

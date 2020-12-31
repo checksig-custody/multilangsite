@@ -15,11 +15,11 @@
 			<div class="row {{ cta.cta.class }}" style="background-image:url({{ site.baseurl }}{{ item.slider }});background-size: auto 100%;     padding: 50px 0px; background-position: center;">
 				<div class="col-lg-12 col-md-12 text-center">
 				<div class="content-inner">
-					<h4 class="no_toc">READ ALSO</h4>
+					<h4 class="no_toc">{{ site.data.locales[page.locale].glossary['readalso']}}</h4>
 					<h2>{{ item.title }}</h2>
 					</a>
 					<p class="text-description">{{ item.subdesc }}</p>
-					<p class="text-link"><a href="{{ site.baseurl }}{{ item.permalink }}">READ MORE</a></p>
+					<p class="text-link"><a href="{{ site.baseurl }}{{ item.permalink }}">{{ site.data.locales[page.locale].glossary['readmore']}}</a></p>
 				</div>
 				</div>
 			</div>

@@ -2,15 +2,16 @@
 layout: custody_child
 title: Technology
 header: Custody / Technology IT
-tag: technology
+tag: technology/
+uid: technology
 subdesc: IT - Lorem ipsum dolores
 description: IT - Lorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem IT - ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum dolores
-img: https://via.placeholder.com/250x250
-slider: https://via.placeholder.com/1600x400
-url: /technology/
+img: /assets/img/custody/ico_technology.svg
+slider: /assets/img/custody/header_transparency.jpg
 locale: it
 page-category: custody
 permalink: /it/custody/technology.html
+sort_ranking: 800
 ---
 
 IT - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin euismod, eros at lobortis fringilla, nulla ligula vestibulum tellus, luctus maximus elit nisl et est. Suspendisse dapibus neque sit amet sodales egestas. Mauris commodo semper dapibus. Proin odio ex, vehicula et consequat at, faucibus ac eros. Nulla aliquet tortor ut magna molestie molestie. Praesent congue mi quis faucibus fringilla. Sed varius ex vitae est imperdiet pellentesque. Donec non lectus sodales, porttitor orci pharetra, sodales lacus. Phasellus fermentum dolor ut venenatis tempus.

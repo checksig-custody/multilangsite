@@ -25,4 +25,12 @@ menu:
 social:
 - {show: true, icon: 'github', link: 'https://'}
 - {show: true, icon: 'twitter', link: 'https://'}
-- {show: true, icon: 'envelope', link: 'mailto:'}
+- {show: true, icon: 'linkedin', link: 'https:'}
+
+info:
+    company: Checksig s.r.l. 
+    address: Corso di Porta Romana 61
+    region: 20122 Milano (MI)
+    country: ITALY
+    mail: info@checksig.io
+    phone:

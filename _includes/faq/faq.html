@@ -5,7 +5,7 @@
         </div>
         <div class="row padding">
 		<div class="faq">
-		{% assign folder1 = site.pages | sort: 'sort_id'%}
+		{% assign folder1 = site.pages | sort: 'sort_ranking' | reverse %}
 		{% for f in folder1 %}
 		{% if f.locale == page.locale and f.page-category == 'faq' %} 
 

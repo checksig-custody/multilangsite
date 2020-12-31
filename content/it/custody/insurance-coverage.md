@@ -4,12 +4,13 @@ title: IT - Insurance Governance
 header: Custody / Insurance Governance
 subdesc: IT - Lorem ipsum dolores
 description: IT - Lorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum dolores
-img: https://via.placeholder.com/250x250
-slider: https://via.placeholder.com/1600x400
-url: /insurance-governance/
+img: /assets/img/custody/ico_insurance.svg
+slider: /assets/img/custody/header_transparency.jpg
 locale: it
 page-category: custody
+uid: insurance-governance
 permalink: /it/custody/insurance-governance.html
+sort_ranking: 700
 ---
 
 IT - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin euismod, eros at lobortis fringilla, nulla ligula vestibulum tellus, luctus maximus elit nisl et est. Suspendisse dapibus neque sit amet sodales egestas. Mauris commodo semper dapibus. Proin odio ex, vehicula et consequat at, faucibus ac eros. Nulla aliquet tortor ut magna molestie molestie. Praesent congue mi quis faucibus fringilla. Sed varius ex vitae est imperdiet pellentesque. Donec non lectus sodales, porttitor orci pharetra, sodales lacus. Phasellus fermentum dolor ut venenatis tempus.

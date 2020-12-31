@@ -2,12 +2,12 @@
 <html lang="en">
 
   {% include head-checksig.html %}
-  {% include header-checksig.html %}
+  {% include header-home-checksig.html %}
   {% include script-checksig.html %}
 
   <body>
     <!-- Begin #title-section -->
-    <section id="title" class="section-global-wrapper"> 
+    <section id="title" class="section-global-wrapper" style="top:-85px;"> 
         <div class="container-fluid-kamn">
 			{% include home/section-home.html %}
         </div>
@@ -24,14 +24,15 @@
 	{% endif %}
 <!-- Begin #company-section -->
 <section id="form-section" class="form-section section-global-wrapper"> 
+	<p class="scrolldown"><a href="#form" class="scrollLink"><img class="logo" style="width:50px" src="{{ site.baseurl }}/assets/img/home/down.png" alt="Scroll"></a></p>
 	<div class="container-fluid-kamn">
 		<div class="row">
 			<div class="it-hero-wrapper it-dark it-overlay">
 			  <!-- - img-->
 			  <div class="img-responsive-wrapper">
 				<div class="img-responsive">
-					<div class="it-hero-text-wrapper bg-light" style="padding:120px 0px; max-width:800px; margin:0px auto;">
-						  <h1 class="no_toc">FILL IN THE FORM FURTHER INFORMATION</h1>
+					<div class="it-hero-text-wrapper bg-light box-inner">
+						  <h4 class="no_toc">{{ site.data.locales[page.locale].glossary['fill']}}</h4><h5>{{ site.data.locales[page.locale].glossary['moreinfo']}}</h5>
 						  <p class="d-none d-lg-block">{% include form.html %}</p>
 					 </div>
 				</div>

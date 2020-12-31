@@ -9,6 +9,9 @@
   <!-- Begin #title-section -->
 	<section id="title" class="section-global-wrapper">
 		<div class="container-fluid-kamn">
+			<div class="row celeste">
+			<div class="bcrumbs "><span>COMPANY / </span></div>
+			</div>			
 			<div class="row">
 				<div class="it-hero-wrapper it-dark it-overlay">
 					<!-- - img-->
@@ -24,21 +27,18 @@
 					</div>
 				</div>
 			</div>
-			<div class="row">
-			{% include company/nav_company.html %}
-			</div>
 		</div>
 	</section>
   <!-- institutions -->
 	<section id="content" class="content">
 		<div class="container">
+			<p class="scrolldown"><a href="#top" class="scrollLink"><img class="logo" style="width:50px" src="{{ site.baseurl }}/assets/img/home/down.png" alt="Scroll"></a></p>
 			<div class="row">
-				<div class="it-hero-wrapper it-dark it-overlay">
+				<div class="it-hero-wrapper it-dark it-overlay" id="top">
 					<!-- - img-->
 					<div class="img-responsive-wrapper" style="">
 						<div class="img-responsive">
-							<div class="it-hero-text-wrapper bg-light"
-								style="padding:50px 0px;margin:0px auto;">
+							<div class="it-hero-text-wrapper bg-light  box-inner">
 								<h2><span class="alert">[title]</span>{{ page.title }}</h2>
 								<p><span class="alert">[description]</span>{{ page.description }}</p>
 							</div>

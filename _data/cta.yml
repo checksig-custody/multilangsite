@@ -13,4 +13,8 @@ institutions:
 support:
   cta:
     uid: institutions 
-    class: demi-wide 
+    class: demi-wide
+why-bitcoin:
+  cta:
+    uid: institutions 
+    class: demi-wide

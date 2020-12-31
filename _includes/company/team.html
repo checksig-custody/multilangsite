@@ -4,13 +4,11 @@
 	</div>
 </div>
 <div class="row padding">
-	{% for member in site.data.team | sort: 'sort_id' %}
-	<div class="col-lg-6 col-md-6 text-center">
+	{% for member in site.data.team | sort: 'sort_ranking' | reverse %}
+	<div class="col-lg-6 col-md-6 text-center flexrow">
+		<div class="panel-sx">
 		<img class="mx-auto rounded-circle" src="{{ site.baseurl }}/assets/{{ member.photo }}"
 			alt="{{ member.photo_name }}" width=130>
-		<h4>{{ member.name }}</h4>
-		</a>
-		<p class="text-muted">{{ member.role }}</p>
 		{% if member.social_1 %}
 		<ul class="list-inline social-buttons">
 			<li class="list-inline-item">
@@ -61,11 +59,16 @@
 			</li>
 			{% endif %}
 		</ul>
-		{% endif %} 
-		</p>
-		<p class="text-muted text-center text-small">
+		{% endif %} 	
+			
+		</div>
+		<div class="panel-dx">
+		<h3>{{ member.name }}</h3>
+		<h4 class="text-muted">{{ member.role }}</h4>
+		<p class="text-team text-small">
 			{{ member.desc }}
 		</p>
+		</div>
 	</div>
 	{% endfor %}
 </div>
