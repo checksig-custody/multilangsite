@@ -746,9 +746,11 @@ label.form-check-label {
     font-size: 12px;
     margin-right: 10px;
     padding-left: 20px;
+	color: #ccc;
 }
 .dir  span a {
     font-size: 12px;
+	color: #ccc;
 }
 .dir  span.loctop {
     background-image: url(/multilangsite/assets/img/home/ico_sede.svg);
