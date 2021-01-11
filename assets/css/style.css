@@ -1057,6 +1057,19 @@ h1, .h1 {
     font-size: 50px;
 }
 
+#logo .container {
+    background: #eee;
+}
+
+#logo h1, #logo h2, #logo h3, #logo h4, #logo h5, #logo h6 {
+    color: #f1af09;
+    font-family: Verdana, Geneva, sans-serif;
+}
+
+#logo a {
+    color: #f1af09;
+}
+
 .invalid-tooltip {
     position: absolute;
     top: 100%;

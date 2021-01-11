@@ -13,14 +13,14 @@ sitemap:
 		{% assign folder1 = site.pages | sort: 'sort_ranking' | reverse %}
 		{% for item in site.data.settings.menu['en'] %}
 		<url>
-			<loc>{{ '/' | append: item.url | relative_url}}</loc>
+			<loc>{{ site.url }}{{ '/' | append: item.url | relative_url}}</loc>
 			<lastmod>2021-01-09T09:00:00+00:00</lastmod>
 			<priority>1.00</priority>
 		</url>
 		{% for subitem in folder1 %}
 		{% if subitem.locale == 'en' and subitem.page-category == item.uid %} 
 		<url>
-			<loc>{{ site.baseurl }}{{ subitem.permalink }}</loc>
+			<loc>{{ site.url }}{{ site.baseurl }}{{ subitem.permalink }}</loc>
 			<lastmod>2021-01-09T09:00:00+00:00</lastmod>
 			<priority>1.00</priority>
 		</url>
