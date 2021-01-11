@@ -1,19 +1,9 @@
 
-# jekyll-pagination-v2 configuration
-pagination:
-  enabled: true
-  per_page: 5
-  permalink: /page/:num/
-  sort_reverse: true
 
 # Build settings
 markdown:            kramdown
 highlighter:         rouge
-plugins:
-  - jekyll-paginate-v2
-  - jekyll-sitemap
-  # - jekyll-feed
-  - jekyll-seo-tag
+
 
 # Customise atom feed settings (this is where Jekyll-Feed gets configuration information)
 
@@ -71,12 +61,6 @@ defaults:
       layout: custody
       locale: it
       permalink: "it/:collection/:path/"
-      
-      
-collections: 
-  zh:
-    output: true
-  custody:
-    output: true
-    
+            
 
+github: [metadata]

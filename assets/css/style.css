@@ -816,8 +816,21 @@ label.form-check-label {
     background-color: transparent;
 }
 
-.nav-label.active, .dropdown-menu li a.active {
-	font-weight:800;
+.navlabel.active, .dropdown-menu li a.active {
+	font-weight: 800!important;
+}
+
+.dropdown.li-contact a.navlabel {
+    background: #60A0BA;
+    padding: 15px 40px;
+    color: white;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 400;
+    display: table;
+    margin: 0px auto;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px rgba(0,0,0,0.2);
 }
 
 .navbar-nav a, .navbar-nav a:hover, .navbar-nav a:focus {

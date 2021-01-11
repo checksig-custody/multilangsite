@@ -76,6 +76,7 @@ $('#form').submit(function(event) {
    var field6 = $('#message').val();
    var field7 = $("#privacy").val();
   event.preventDefault();
+  console.log('submit');
   $('#feedback').html('');
   setTimeout(function() {
   	// Get data
@@ -85,10 +86,9 @@ $('#form').submit(function(event) {
        "entry.1045781291": field3,
        "entry.1166974658": field4,
        "entry.1851324921": field5,
-       "entry.839337160": field6,
-       "entry.670471906": field7
+       "entry.839337160": field6
     };
-
+  console.log(data);
     // Validate form
     var formSuccess = true;
     Object.keys(data).forEach(function(key, index) {
@@ -99,6 +99,7 @@ $('#form').submit(function(event) {
     });
 
     if (formSuccess) {
+	console.log('submit');
       // Send request
       $.ajax({
         url: 'https://docs.google.com/forms/d/e/1dUs7ZZ1zgyMgkZTtN2EIZuErTvYJapgXqkLymeWNf2w/formResponse',
