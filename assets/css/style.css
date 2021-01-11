@@ -71,6 +71,7 @@ li.nav-children-bar.active a {
 .sub-catmenu {
     max-width: 1300px;
     margin: 0px auto;
+	width: 90%;
 }
 h4, .h4, h5, .h5  {
 	text-align:center;
@@ -79,6 +80,7 @@ h4, .h4, h5, .h5  {
     padding: 80px 0px;
     max-width: 1300px!important;
     margin: 0px auto;
+	width:90%;
 }
 #form {
     max-width: 1000px;
@@ -411,6 +413,7 @@ License URI:http://www.gnu.org/licenses/gpl-2.0.html
 .bcrumbs {
     max-width: 1300px;
     margin: 0px auto;
+	width: 90%;
 }
 .bcrumbs span{
     color: white;
@@ -770,9 +773,9 @@ label.form-check-label {
 	border-top:1px solid #888;
 }
 #footer .container .row {
-    width: 100%;
+	width: 90%;
     max-width: 1300px;
-	margin: 0px auto;
+    margin: 0px auto;
 }
 #footer .navcategory {
     width: 100%;
@@ -1335,11 +1338,11 @@ address {
 
 @media (min-width: 100px) and (max-width: 800px) { 
  
-    #banner-home{
-    background-image:url('../img/slider/1.jpg');
-    height:450px;
-    margin-bottom: 30px;
-    }
+#banner-home{
+background-image:url('../img/slider/1.jpg');
+height:450px;
+margin-bottom: 30px;
+}
  }
 #banner{
     margin-top:0px;
@@ -1373,6 +1376,7 @@ address {
 .navtopmenu {
     width: 75%;
 }
+
 
 }
 
@@ -1435,6 +1439,46 @@ p.blog-text{
       height: 100px;
       width: 60px;
   }
+.masthead-title {
+    display: table;
+    width: 95%;
+    padding: 10px 0px;
+}
+.dir {
+    width: 50%;
+    display: none;
+}
+#navbar-spy{
+    position: absolute;
+    background: rgba(0, 0, 20, 0.8);
+    width: 90%;
+}
+#navbar-spy ul {
+    width: 100%;
+}
+#navbar-spy ul li {
+    width: 100%!important;
+    display: table!important;
+}
+#navbar-spy > ul li:nth-child(1) {
+    display: none!important;
+}
+#navbar-spy > ul li a  {
+	color: #fff;
+}
+.dropdown.li-contact a.navlabel {
+    padding: 15px 5px;
+    border-radius: 4px;
+    font-size: 15px;
+	background: transparent;
+	text-transform:unset;
+}
+.middle-home .middle {
+    margin-bottom: 20px;
+}
+#footer .navcategory > li {
+    width: 100%;
+}
 }
 
 /*
