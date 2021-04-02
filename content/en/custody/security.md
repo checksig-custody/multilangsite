@@ -1,8 +1,8 @@
 ---
 layout: custody_child
-title: EN -Security
+title: Security
 header: Custody / Security
-subdesc: EN -Lorem ipsum dolores Institution 4
+subdesc: Internet disconnected as defense from remote hacks, our main custody solution has two levels.
 description: EN -Lorem ipsum dolores Institution 4 Lorem ipsum dolores Institution 4 Lorem ipsum dolores Institution 4 Lorem ipsum dolores Institution 4 Lorem ipsum dolores Institution 4 Lorem ipsum dolores Institution 4 Lorem ipsum dolores Institution 4 Lorem ipsum dolores Institution 4 Lorem ipsum dolores Institution 4 Lorem ipsum dolores Institution 4 Lorem ipsum dolores Institution 4 Lorem ipsum dolores Institution 4 Lorem ipsum dolores Institution 4 Lorem ipsum dolores Institution 4 Lorem ipsum dolores Institution 4 Lorem ipsum dolores Institution 4 Lorem ipsum dolores Institution 4 Lorem ipsum dolores 
 img: /assets/img/custody/ico_security.svg
 slider: /assets/img/custody/header_transparency.jpg

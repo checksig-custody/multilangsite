@@ -1,13 +1,13 @@
 ---
 layout: custody_child
-title: EN -Transparency
+title: Transparency
 header: Custody / Transparency
 tag: transparency
 uid: transparency
 locale: en
 page-category: custody
 page-tag: secmid
-subdesc: EN -Lorem ipsum dolores
+subdesc: CheckSig rejects the “security-by-obscurity” paradigm in favor of a transparent process.
 description: EN -Lorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum dolores
 img: /assets/img/custody/ico_transparency.svg
 slider: /assets/img/custody/header_transparency.jpg
