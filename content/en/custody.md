@@ -1,6 +1,6 @@
 ---
 layout: custody
-title: Transparent Bitcoin Custody
+title: YOUR BITCOIN, SAFE
 header: Custody
 locale: en
 uid: custody
