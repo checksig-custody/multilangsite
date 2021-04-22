@@ -8,7 +8,7 @@ permalink: /custody.html
 slider: /assets/img/custody/header_custody.jpg
 slider-home: /assets/img/home/header_homepage.jpg
 page-tag: sectop
-subdesc: We empower the way you store your Bitcoin
+subdesc: We empower the way you store your Bitcoin!
 description: CheckSig provides a transparent Bitcoin custody solutions for institutional investors and high-net-worth individuals
 img: https://via.placeholder.com/250x250
 class: wide-top
