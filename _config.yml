@@ -11,7 +11,7 @@ highlighter:         rouge
 #feed:
 #  path: rss-feed.xml
 baseurl: "/multilangsite" # the subpath of your site, e.g. /blog
-url: "checksig-inside.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+url: "checksig-custody.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 
 # multiple language
 defaults:
